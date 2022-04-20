@@ -1,0 +1,17 @@
+PROCEDURE insertion-sort(VAR tab : ARRAY_OF INTEGER)
+VAR
+ i,j,n : INTEGER;
+ key:FLOAT;
+BEGIN
+/défunir la taille de tab
+ n:= tab.length;
+FOR i FROM 1 TO n-1 STEP 1  DO
+ key:=tab[i];
+ j:=i;
+WHILE (tab[j-1]>tmp) and (j>=0)DO
+ tab[j]:=t[j-1]
+ j:=j-1;
+END_WHILE
+ tab[j]:=key;
+END_FOR
+END
